@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+    <script src='//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js'></script>
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+    <script src='javascripts/app.js'></script>
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='stylesheets/style.css'>
+</head>
+<body>
+<% include ./nav %>
+<div class="container">
+    <row>
+        <div class="col-md-12 ">
+            
+            <div ui-view></div>
+        </div>
+    </row>
+</div>
+</body>
+</html>

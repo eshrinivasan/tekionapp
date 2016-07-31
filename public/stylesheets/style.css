@@ -1,0 +1,29 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.axis path,
+.axis line{
+  fill: none;
+  stroke:black;
+  shape-rendering:crispEdge;
+}
+
+.axis text{
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.tick
+{
+  stroke-dasharray: 1, 2;
+}

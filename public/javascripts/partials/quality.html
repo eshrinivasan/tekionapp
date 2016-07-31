@@ -1,0 +1,28 @@
+<div class="container">
+<h1>List of To-dos!</h1>
+
+
+        <div id="todo-list" class="row">
+            <div class="col-sm-4">
+                <div class="checkbox" ng-repeat="todo in todos">
+                    <label>
+                        <input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.text }}
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="todo-form" class="row">
+            <div class="col-sm-4">
+                <form>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" placeholder="Type a new to do item!" ng-model="formData.text">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" ng-click="createTodo()">Add</button>
+                </form>
+            </div>
+        </div>
+</div>

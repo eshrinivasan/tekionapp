@@ -1,0 +1,21 @@
+<nav class='navbar navbar-default'>
+    <div class='container'>
+        <ul class='nav navbar-nav'>
+            <li><a href="/">Home</a></li>
+            <% if (logmsg.length > 0) { %>
+            <li><a href='/users'>User List</a></li>
+            <% } %>
+        </ul>
+        <p class='navbar-text navbar-right'>
+            <%= logmsg %>
+            <% if (logmsg.length > 0) { %>
+            | <a href='/logout'>Logout</a>
+            <% } else { %>
+            <a href='/signup'>Get an account</a> |
+            <a href='/logout'>Login</a>
+            <% } %>
+
+        </p>
+
+    </div>
+</nav>
