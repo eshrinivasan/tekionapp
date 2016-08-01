@@ -1,6 +1,7 @@
-> Within the root folder:
+> Within the root(tekionapp) folder:
 
 > * Run 'npm install' to install required packages
+> * Run 'gulp concatmin' to concatenate angular app js files
 > * Run 'node ./bin/www' to start the application
 > * The app will start running at http://localhost:3000
 
